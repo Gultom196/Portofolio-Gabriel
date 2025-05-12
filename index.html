@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome untuk ikon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tambahkan ini di bagian <head> untuk ikon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="logo">Gabriel Gultom</h1>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#projects">Proyek</a></li>   
+          <li><a href="#contact">Kontak</a></li>
+          <li><a href="#Album">Album</a></li>
+        </ul>
+      </nav>
+           </header>
+
+    <section id="home" class="hero">
+         <video autoplay muted loop id="bg-video">
+    <source src="Video 2.mp4" type="video/mp4" />
+    Your browser does not support HTML5 video.
+  </video>
+      <div class="hero-container">
+        <div class="hero-text" data-aos="fade-right">
+          <h2>Halo, saya <span>Gabriel Gultom</span></h2>
+          <p>Seorang Web Developer & Desainer UI/UX</p>
+          <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+        <!-- foto profil -->
+        <div class="hero-image" data-aos="fade-left">
+          <img src="Gambar kacamata.jpg" alt="Foto Saya" />
+        </div>
+      </div>
+    </section>
+<!-- konten utama -->
+    <section id="about" class="about" data-aos="fade-up">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya adalah mahasiswa aktif Program Studi Sistem Informasi di
+        Universitas Terbuka yang memiliki ketertarikan kuat pada bidang
+        teknologi informasi, khususnya dalam analisis sistem, pemrograman, dan
+        pengembangan aplikasi. Dengan latar belakang pendidikan yang menekankan
+        kemandirian dan kedisiplinan, saya terbiasa mengelola waktu secara
+        efektif serta menyelesaikan tugas dan proyek secara terstruktur.
+        <br />Saya memiliki pengalaman dalam mengerjakan proyek berbasis web,
+        dokumentasi sistem, serta penggunaan berbagai bahasa pemrograman dan
+        tools pendukung pengembangan perangkat lunak. Selain kemampuan teknis,
+        saya juga mengutamakan komunikasi yang baik, kolaborasi tim, dan
+        semangat belajar yang berkelanjutan. Ke depannya, saya berkomitmen untuk
+        terus mengembangkan keahlian di bidang teknologi informasi dan
+        memberikan kontribusi nyata dalam mendukung transformasi digital di
+        berbagai sektor. <br />Saya percaya bahwa teknologi bukan hanya tentang
+        kode, tetapi tentang menciptakan perubahan. Karena itu, saya terus
+        mengasah keterampilan saya dengan tujuan menjadi seorang web developer
+        dan software engineer yang profesional. Bagi saya, setiap baris kode
+        adalah langkah kecil menuju masa depan yang lebih cerdas dan terhubung.
+      </p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Proyek Saya</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Proyek 1</h3>
+          <p>
+            <h2>Proyek: Website Kedai Kopi</h2>
+<br> Saya merancang dan membangun sebuah website sederhana untuk kedai
+            kopi lokal menggunakan HTML dan CSS. Website ini mencakup halaman
+            beranda, menu produk, profil kedai, dan formulir kontak. Fokus utama
+            proyek ini adalah memberikan tampilan yang menarik, user-friendly,
+            dan informatif agar pelanggan dapat dengan mudah mengenal produk
+            serta layanan kedai kopi tersebut. Proyek ini juga menjadi latihan
+            penting dalam menerapkan prinsip dasar desain web dan struktur
+            halaman yang responsif.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Proyek 2</h3>
+          <p>
+            <h2>Proyek: Analisis Data Penjualan Sederhana</h2> <br />Dalam proyek ini,
+            saya menganalisis data penjualan menggunakan Microsoft Excel dan
+            Google Sheets untuk menemukan pola penjualan tertinggi berdasarkan
+            produk dan waktu. Saya menggunakan teknik dasar seperti filter data,
+            pivot table, dan pembuatan grafik visual untuk menyajikan informasi
+            dengan lebih jelas. Proyek ini melatih saya dalam membaca data,
+            menarik kesimpulan, dan menyusun laporan yang bisa dijadikan dasar
+            pengambilan keputusan bisnis.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Album Saya -->
+     <section class="album-foto" id="Album">
+      <h2>Album Foto</h2>
+      <div class="galeri">
+        <img src="Gambar 6.jpg" alt="Foto 1">
+        <img src="Gambar 5.jpg" alt="Foto 2">
+        <img src="Gambar 4.jpg" alt="Foto 3">
+        <img src="Gambar 3.jpg" alt="Foto 4">
+      </div>
+    </section>
+<!-- Kontak Saya -->
+    <section id="contact" class="contact">
+  <h2>Kontak Saya</h2>
+  <form id="contact-form">
+    <label for="name">Nama</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Pesan</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Kirim</button>
+  </form>
+</section>
+
+    <footer>
+      <p>© 2025 Gabriel Gultom. Semua hak dilindungi.</p>
+      <div class="socials">
+        <a href="https://instagram.com/gabrielgultom_/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://facebook.com/gabriel.gultom.54/" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://tiktok.com/@gabrielgultom100" target="_blank"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+      </div>
+    </footer>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
